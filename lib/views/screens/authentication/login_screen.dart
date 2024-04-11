@@ -23,7 +23,7 @@ class LoginScreen extends StatelessWidget {
               ),
             ),
             Text(
-              'To Explore the world exclusively',
+              'To Explore the world exclusively in flutter using UI',
               style: GoogleFonts.getFont(
                 'Lato',
                 color: Color(0XFF0d120E),
