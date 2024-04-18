@@ -1,7 +1,21 @@
+import 'dart:io';
+
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:shop_hub/views/screens/authentication/login_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  Platform.isAndroid
+      ? await Firebase.initializeApp(
+          options: FirebaseOptions(
+              apiKey: "AIzaSyAyLx1SD5-fMUnUAuP-fbOycgw_SlurYiA",
+              appId: "1:78023231023:android:5ba6bffb7c8c45dfd4a8da",
+              messagingSenderId: "78023231023",
+              projectId: "shophubstore-2b699",
+              storageBucket: "gs://shophubstore-2b699.appspot.com"))
+      : await Firebase.initializeApp();
+
   runApp(const MyApp());
 }
 

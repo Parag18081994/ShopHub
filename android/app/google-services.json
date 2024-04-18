@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "536939348096",
-    "project_id": "shophub-a5214",
-    "storage_bucket": "shophub-a5214.appspot.com"
+    "project_number": "78023231023",
+    "project_id": "shophubstore-2b699",
+    "storage_bucket": "shophubstore-2b699.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:536939348096:android:cdc4165b9fc63aeed9a665",
+        "mobilesdk_app_id": "1:78023231023:android:5ba6bffb7c8c45dfd4a8da",
         "android_client_info": {
           "package_name": "com.CINS467.shop_hub"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAMMHdZc-F3Y150z5OnY9D8oR3qAavjb-M"
+          "current_key": "AIzaSyAyLx1SD5-fMUnUAuP-fbOycgw_SlurYiA"
         }
       ],
       "services": {
